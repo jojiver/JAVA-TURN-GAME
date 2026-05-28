@@ -1,9 +1,9 @@
 abstract class Character {
 	
 	private String name;
-	private int hp;
+	private double hp;
 	
-	public  Character(String name, int hp){
+	public  Character(String name, double hp){
 		this.name = name;
 		this.hp = hp;
 	}
@@ -12,11 +12,11 @@ abstract class Character {
 		return name;
 	}
 	
-	public int getHp(){
+	public double getHp(){
 		return hp;
 	}
 	
-	public void setHp(int hp){
+	public void setHp(double hp){
 		this.hp = hp;
 	}
 	
